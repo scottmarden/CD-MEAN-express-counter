@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Counter</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>This is a counter!</h1>
+			<h3>Count: <%= count %> times</h3>
+			<form action="/double" method="get">
+				<button type="submit">+2</button>
+			</form>
+			<form action="/reset" method="get">
+				<button type="submit">Reset</button>
+			</form>
+		</div>
+	</body>
+</html>
